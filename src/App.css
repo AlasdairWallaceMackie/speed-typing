@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* https://colorswall.com/palette/46696 */
+
+@font-face {
+    font-family: Alagard;
+    src: url("./alagard.ttf");
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+    font-family: Alagard;
+    background-color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+main{
+    background-color: #542b29;
+    color: #9a9a8e;
+    padding: 2rem;
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+textarea{
+    resize: none;
+    margin: 2rem 0;
+    padding: 1rem;
+    border: none;
+    background-color: #cc8c54;
+    color: #542b29;
+    font-family: Alagard;
+}
+    textarea:focus{
+        outline: none;
+    }
+
+#main-title{
+    font-size: 64px;
+    margin: 0
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#start-button{
+    font-family: Alagard;
+    margin-top: 2rem;
+    padding: 1rem;
+    border: none;
+    background-color: #cc8c54;
+    cursor: pointer;
+}
+
+.centering{
+    display: flex;
+    justify-content: center;
+}
+
+.font-medium{
+    font-size: 32px;
+}
+
+.shadow{
+    box-shadow: 3px 3px 3px black;
+}
+
+img{
+    align-self: center;
 }
