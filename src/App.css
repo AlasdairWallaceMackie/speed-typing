@@ -58,6 +58,9 @@ textarea{
     background-color: #cc8c54;
     cursor: pointer;
 }
+    #start-button:disabled{
+        cursor: default;
+    }
 
 #hud{
     display: flex;
