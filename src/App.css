@@ -16,7 +16,7 @@ body{
 }
 
 main{
-    background-color: #542b29;
+    background-color: #7c142c;
     color: #9a9a8e;
     padding: 2rem;
     text-align: center;
@@ -24,12 +24,13 @@ main{
 
 textarea{
     resize: none;
-    margin: 2rem 0;
     padding: 1rem;
     border: none;
     background-color: #cc8c54;
     color: #542b29;
     font-family: Alagard;
+    font-size: 24px;
+    margin: 10rem 0 6rem;
 }
     textarea:focus{
         outline: none;
@@ -40,6 +41,15 @@ textarea{
     margin: 0
 }
 
+#parchment{
+    background-image: url("./img/parchment.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 35rem;
+    height: 35rem;
+}
+
 #start-button{
     font-family: Alagard;
     margin-top: 2rem;
@@ -47,6 +57,11 @@ textarea{
     border: none;
     background-color: #cc8c54;
     cursor: pointer;
+}
+
+#hud{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .centering{
